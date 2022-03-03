@@ -1,0 +1,23 @@
+//Abstracts
+@import "./abstracts/mixin";
+@import "./abstracts/variable";
+
+
+@import "./base/base";
+@import "./base/typography";
+// FallBack
+// Animation
+@import "./base/animation";
+
+//Layout
+@import "./layout/notfound";
+@import "./layout/header";
+@import "./layout/footer";
+
+//Pages
+@import "./page/home";
+@import "./page/search";
+
+body{
+    background-color: #EAEDED
+}

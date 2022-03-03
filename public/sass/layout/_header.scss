@@ -1,0 +1,157 @@
+.header{
+    &-top{
+        height: 100px;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #296855;
+        color: #fff;
+        .header-left{
+            &-logo{
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            &-navbar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &-list{
+                display: flex;
+            }
+            &-item{
+                list-style: none;
+                margin: 0 10px;
+                font-size: 16px;
+            }
+        }
+        .header-right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            &-languages{
+                border-right: 1px solid #fff;
+                padding-right: 5px;
+                p{
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                img{
+                    width: 30px;
+                    height: 20px;
+                }
+            }
+            &-user{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 10px;
+            }
+            &-link{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                span{
+                    font-weight: bold;
+                }
+            }
+            &-special{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 0 10px;
+                div > span{
+                    color: #000;
+                    font-weight: bold;
+                    padding: 2px 5px;
+                    background-color: #FFBB00;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+                span{
+                    font-weight: bold;
+                }
+            }
+            &-messages{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 0 10px;
+                span{
+                    font-weight: bold;
+                }
+            }
+            &-order{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 0 10px;
+                span{
+                    font-weight: bold;
+                }
+            }
+            &-cart{
+                position: relative;
+                span{
+                    color: #000;
+                    font-weight: bold;
+                    position: absolute;
+                    right: -10%;
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                    background-color: #FFBB00;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+            }
+        }
+    }
+    &-bottom{
+        padding: 5px 30px;
+        background-color: #296855;
+        border-top: 1px solid #fff;
+        .header-search{
+            display: flex;
+            background-color: #FFBB00;
+            border: 2px solid #FFBB00;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            .input{
+                &-choose{
+                    width: 15%;
+                    text-align: center;
+                    padding: 8px 15px;
+                    background-color: #CCCCCC;
+                    font-weight: 400;
+                }
+                &-search{
+                    width: 85%;
+                    text-indent: 20px;
+                    outline: none;
+                    border: none;
+                }
+                &-label{
+                    width: 100px;
+                    background-color: #FFBB00;
+                    display: flex;
+                    align-items:center;
+                    justify-content:center;
+                }
+            }
+        }
+    }
+}

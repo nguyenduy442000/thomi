@@ -1,0 +1,369 @@
+.home{
+    max-width: 1240px;
+    margin: 0 auto;
+    &-sliderbanner{
+        margin-top: 20px;
+    }
+    &-brand{
+        margin-top: 20px;
+        display: flex;
+        gap: 0 15px;
+        justify-content:space-between;
+    }
+    &-product{
+        margin-top: 20px;
+        display: flex;
+        gap: 0 15px;
+        justify-content:space-between;
+    }
+    &-special{
+        margin-top: 20px;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        gap: 0 15px;
+        &-item{
+            width: calc((100% / 4) - 15px)
+        }
+    }
+    &-special-two{
+        margin-top: 20px;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        gap: 0 15px;
+        &-item{
+            width: calc((100% / 3) - 15px)
+        }
+    }
+    &-slider{
+        margin-top: 20px;
+    }
+    &-category{
+        margin-top: 20px;
+    }
+    &-topcate{
+        margin-top: 20px;
+    }
+    &-support{
+        margin: 20px 0;
+    }
+}
+
+// --------------------------------------Slider Banner------------------------------------------
+.slider-banner{
+    width: 100%;
+    height: 300px;
+    background-color: #F3F3F3;
+    padding: 50px 200px;
+    &-item{
+        display: flex !important;
+        justify-content: space-between;
+        height: 100%;
+        padding: 0 50px;
+    }
+    &-img{
+        width: 60%;
+        height: 200px;
+        img{
+            height: 100%;
+        }
+    }
+    .slider-item-left{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &-sales{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            color: #93B64D;
+        }
+        button{
+            padding: 10px 30px;
+            border-radius: 5px;
+            background-color: #FCB800;
+            color: #fff;
+            font-size: 18px;
+            gap: 0 20px;
+            border: none;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+}
+
+// --------------------------------------Branch--------------------------------------------------
+.brand-child{
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px;
+    img{
+        width: 70%;
+        height: auto
+    }
+}
+.brand-icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 3px 5px grey;
+}
+
+// -------------------------------------- Danh sách 4, 6 sản phẩm ---------------------------------
+.list-six{
+    width: 60%;
+    background-color: #fff;
+    padding: 10px;
+    &-product{
+        display:flex;
+        gap: 0 10px;
+        padding: 5px 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-top: 2px solid #EAEDED;
+    }
+    .six-product-item{
+        width: 30%;
+        height: 250px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            text-align: center;
+            color: grey;
+        }
+    }
+}
+
+.list-four{
+    width: 40%;
+    background-color: #fff;
+    padding: 10px;
+    &-product{
+        display:flex;
+        gap: 0 10px;
+        padding: 5px 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-top: 2px solid #EAEDED;
+    }
+    .four-product-item{
+        width: 45%;
+        height: 250px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            text-align: center;
+            color: grey;
+        }
+    }
+}
+
+// -------------------------------------- Danh sách 1, 4 sản phẩm đặc biệt -------------------------
+.four-special{
+    background-color: #fff;
+    padding: 10px;
+    &-list{
+        display:flex;
+        gap: 2px;
+        padding: 20px 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-top: 2px solid #EAEDED;
+        height: 100%;
+    }
+    &-img{
+        width: calc((100% / 2) - 2px);
+        height: 125px;
+        background-color: #FFF0D1;
+        text-align: center;
+        padding: 10px;
+        img{
+            width: 100px;
+            height: auto;
+        }
+    }
+}
+
+.one-special{
+    background-color: #fff;
+    padding: 10px;
+    &-list{
+        padding: 20px 0;
+        border-top: 2px solid #EAEDED;
+        height: 100%;
+    }
+    &-img{
+        height: 250px;
+        background-color: #FFF0D1;
+        text-align: center;
+        padding: 10px;
+        img{
+            width: 230px;
+            height: auto;
+        }
+    }
+}
+
+//-----------------------------------------------See More--------------------------------------------
+.seemore{
+    color: #246853;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+// ------------------------------------- Title Home List -------------------------------------------
+.title-home-list{
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+//----------------------------------------------- Slider Product-------------------------------------
+.slider-product{
+    padding: 10px;
+    background-color: #fff;
+    &-list{
+        border-top: 2px solid #EAEDED;
+    }
+    &-item{
+        // width : 200px;
+        height: 150px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+//----------------------------------------------- Home Category --------------------------------
+.list-category{
+    padding: 10px;
+    background-color: #fff;
+    &-home{
+        display:flex;
+        gap: 30px;
+        padding: 20px 5px;
+        flex-wrap: wrap;
+        border-top: 2px solid #EAEDED;
+    }
+    &-item{
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        width: calc((100% / 6) - 30px);
+        box-shadow: 0 2px 3px grey;
+        padding: 10px;
+        cursor: pointer;
+        img{
+            width: 50px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+//---------------------------------------------- Top Category -------------------------------------
+.topcate-list{
+    padding: 10px;
+    background-color: #fff;
+    &-home{
+        display:flex;
+        gap: 30px;
+        padding: 20px 5px;
+        border-top: 2px solid #EAEDED;
+    }
+    &-item{
+        text-align: center;
+        width: calc((100% / 5) - 30px);
+        cursor: pointer;
+        img{
+            width: 100px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+// ---------------------------------------------List Support-----------------------------------------
+.list-support{
+    padding: 20px 50px;
+    gap: 0 30px;
+    background-color: #fff;
+    display: flex;
+    &-item{
+        display: flex;
+        justify-content: center;
+        gap: 0 10px;
+        align-items: center;
+        width: calc((100% / 4) - 30px);
+        cursor: pointer;
+        img{
+            width: 50px;
+        }
+    }
+    &-content{
+        h5{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+.list-sell{
+    display: flex;
+    height: 200px;
+    &-left{
+        width: 40%;
+        background-color: #43A58E;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        h3{
+            font-size: 25px;
+        }
+        a{
+            color: #fff;
+            background-color: #FCB801;
+            padding: 6px 20px;
+            box-shadow: 0 3px 5px grey;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+}
+    }
+    img{
+        width: 60%;
+        height: auto;
+    }
+}
